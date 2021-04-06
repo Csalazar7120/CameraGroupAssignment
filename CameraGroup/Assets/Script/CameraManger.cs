@@ -44,6 +44,7 @@ public class CameraManger : MonoBehaviour
 
     public void SwitchViews(Dropdown change)
     {
+        //Hi
         Debug.LogFormat("{0}:{1}", change.itemText.text, change.value);
         switch (change.value)
         {            //Show Camera 1 view only
